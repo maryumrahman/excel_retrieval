@@ -6,6 +6,7 @@ plugins {
 }
 
 android {
+    namespace = "com.google.mlkit.common"
     namespace = "com.example.excel_retrieval"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
