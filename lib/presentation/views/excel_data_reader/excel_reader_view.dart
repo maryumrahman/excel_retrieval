@@ -4,7 +4,8 @@ import 'package:excel/excel.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
-import '../../infrastructure/model/ticket_model.dart';
+import '../../../infrastructure/model/ticket_model.dart';
+
 
 
 class ExcelReaderPage extends StatefulWidget {

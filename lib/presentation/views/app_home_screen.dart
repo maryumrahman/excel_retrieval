@@ -17,7 +17,8 @@ class HomeScreen extends StatelessWidget {
           children: [
             _buildNavButton(context, "📊 Excel Extractor", '/excel'),
             _buildNavButton(context, "📸 Recipe Recognition", '/recipe'),
-            _buildNavButton(context, "🔐 Firebase Login", '/login'),
+            // _buildNavButton(context, "🔐 Firebase Login", '/login'),
+            _buildNavButton(context, "🔐 Splash Screen ", '/splashscreen'),
           ],
         ),
       ),
